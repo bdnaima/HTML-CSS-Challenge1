@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Merriweather&display=swap");
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+}
+
+#heading {
+  color: hsl(179, 62%, 43%);
+  font-weight: bolder;
+}
+
+#second-heading {
+  color: hsl(71, 73%, 54%);
+}
+
+#big-size-money {
+  font-size: 1.5rem;
+}
+
+#paragraph-access {
+  width: 15rem;
+}
+
+.outer-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 4rem;
+}
+
+.inner-box-top {
+  box-shadow: 2px 2px 4px #aaa9a9;
+  padding: 2rem;
+  max-width: 29.3rem;
+}
+
+.small-boxes {
+  display: flex;
+  box-shadow: 2px 2px 4px #aaa9a9;
+  max-width: 33.3rem;
+}
+
+.small-box-one {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  padding: 2rem;
+  max-width: 13rem;
+}
+
+.small-box-two {
+  background-color: #4abdbd;
+  color: #fff;
+  padding: 2rem;
+  max-width: 15rem;
+}
+
+.paragraph {
+  color: hsl(218, 22%, 67%);
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.sign-up-button {
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  width: 14rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .small-boxes {
+    flex-direction: column;
+  }
+  .sign-up-button {
+    max-width: 12rem;
+  }
+}
